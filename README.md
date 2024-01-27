@@ -29,6 +29,8 @@ Data Science and Machine Learning Jupyter Notebooks
 
 `docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .`
 
+`pip install -r requirements.txt --no-cache-dir --disable-pip-version-check`
+
 ## References
 
 - [TimeGPT: The First Foundation Model for Time Series Forecasting](https://towardsdatascience.com/timegpt-the-first-foundation-model-for-time-series-forecasting-bf0a75e63b3a)
