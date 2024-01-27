@@ -1,0 +1,8 @@
+featuretools>=1.28.0
+pandas>=2.2.0
+numpy>=1.26.3
+scikit-learn>=1.4.0
+evalml>=0.82.0
+pip>=23.3.2
+setuptools>=69.0.3
+pyspark>=3.5.0

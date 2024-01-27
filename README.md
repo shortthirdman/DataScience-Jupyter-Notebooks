@@ -6,20 +6,22 @@ Data Science and Machine Learning Jupyter Notebooks
 
 - [Ready-to-run Docker images containing Jupyter applications - jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)
 
+- [Kaggle/docker-python - Kaggle Python Docker image](https://github.com/Kaggle/docker-python)
+
 
 ## Dataset References
 
-- [](https://www.kaggle.com/datasets/rafsunahmad/apple-stock-price)
+- [Apple Stock Price](https://www.kaggle.com/datasets/rafsunahmad/apple-stock-price)
 
-- [](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
+- [Spotify Dataset 2023](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
 
-- [](https://www.kaggle.com/datasets/thedevastator/online-retail-transaction-data)
+- [Online Retail Transactions](https://www.kaggle.com/datasets/thedevastator/online-retail-transaction-data)
 
-- [](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset)
+- [Stock Market](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset)
 
-- [](https://www.kaggle.com/datasets/varpit94/american-airlines-group-stock-data)
+- [American Airlines Group Stock](https://www.kaggle.com/datasets/varpit94/american-airlines-group-stock-data)
 
-- [](https://www.kaggle.com/datasets/specter7/amazon-amzn-historical-stock-price-data)
+- [Amazon (AMZN) Historical Stock Price](https://www.kaggle.com/datasets/specter7/amazon-amzn-historical-stock-price-data)
 
 ## Docker commands
 
