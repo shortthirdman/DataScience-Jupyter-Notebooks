@@ -29,18 +29,25 @@ Data Science and Machine Learning Jupyter Notebooks
 
 `docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .`
 
+
 ## Local Setup
 
   - Create a Python virtual environment and activate
+	
 	`python -m venv <virtual-env-name>`
+	
 	`.\<virtual-env-name>\Scripts\activate`
 
   - Install the packages and dependencies as listed in requirements file
+	
 	`pip install -r requirements.txt --no-cache-dir --disable-pip-version-check`
 
   - Start your development `Jupyter Notebook` or `Jupyter Lab` server
+	
 	`jupyter lab --notebook-dir=.\notebooks --no-browser`
+	
 	`jupyter notebook`
+
 
 ## References
 
