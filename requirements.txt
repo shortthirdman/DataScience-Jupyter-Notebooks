@@ -1,5 +1,8 @@
 notebook==7.0.7
 jupyterlab==4.0.11
+jupyter_nbextensions_configurator==0.6.3
+jupyter-lsp==2.2.2
+jupyterlab-lsp==5.0.2
 featuretools==1.28.0
 pandas==2.0.3
 numpy==1.26.3
