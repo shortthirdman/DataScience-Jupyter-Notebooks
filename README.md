@@ -36,19 +36,29 @@ Data Science and Machine Learning Jupyter Notebooks
 
   - Create a Python virtual environment and activate
 	
-	`python -m venv <virtual-env-name>`
+	```shell
+	python -m venv dev
+	````
 	
-	`.\<virtual-env-name>\Scripts\activate`
+	```shell
+	.\dev\Scripts\activate
+	```
 
   - Install the packages and dependencies as listed in requirements file
 	
-	`pip install -r requirements.txt --no-cache-dir --disable-pip-version-check`
+	```shell
+	pip install -r requirements.txt --no-cache-dir --disable-pip-version-check
+	```
 
   - Start your development `Jupyter Notebook` or `Jupyter Lab` server
 	
-	`jupyter lab --notebook-dir=.\notebooks --no-browser`
+	```shell
+	jupyter lab --notebook-dir=.\notebooks --no-browser
+	```
 	
-	`jupyter notebook`
+	```shell
+	jupyter notebook
+	```
 
 
 ## References
