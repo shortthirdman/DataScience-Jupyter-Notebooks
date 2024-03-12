@@ -9,3 +9,4 @@ numpy==1.26.3
 scikit-learn==1.4.0
 evalml==0.82.0
 pyspark==3.5.0
+xgboost==2.0.0

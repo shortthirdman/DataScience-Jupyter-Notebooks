@@ -27,9 +27,13 @@ Data Science and Machine Learning Jupyter Notebooks
 
 ## Docker commands
 
-`docker build --progress=plain --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .`
+```shell
+docker build --progress=plain --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
+```
 
-`docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .`
+```shell
+docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
+```
 
 
 ## Local Setup
