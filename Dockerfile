@@ -1,58 +1,45 @@
-# syntax=docker/dockerfile:1
+# Use the official Python 3.12 image as base
+FROM python:3.12
 
-# Use the specified base image
-FROM quay.io/jupyter/scipy-notebook:x86_64-latest
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
 
-# Switch user to adminitrator privileges
-USER root
+# Set the working directory in the container
+WORKDIR /app
 
-# Install PyTorch and TensorFlow dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3-pip \
-	apt-transport-https \
-	ca-certificates \
-    curl \
-    gnupg \
-    lsb-release \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+# Copy the requirements file into the container at /app
+COPY requirements.txt /app/
 
-# Switch back to default user
-USER jovyan
-
+# Upgrade pip
 RUN pip install --upgrade pip
 
-# Install PyTorch with CUDA support (assuming CUDA 11.4 is available on the host)
-RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# Install dependencies from requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Install TensorFlow
-RUN pip install --no-cache-dir tensorflow[and-cuda]
+# Install Java (required for Apache Spark)
+RUN apt-get update && \
+    apt-get install -y openjdk-11-jdk-headless && \
+    rm -rf /var/lib/apt/lists/*
 
-# Verify TensorFlow GPU Setup
-RUN echo "[tensorflow] Verifying GPU setup" && python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+# Install Apache Spark
+ENV SPARK_VERSION 3.2.0
+ENV HADOOP_VERSION 3.3
+RUN wget -q https://archive.apache.org/dist/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION.tgz && \
+    tar -xzf spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION.tgz && \
+    rm spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION.tgz && \
+    mv spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION /spark
 
-# Verify TensorFlow CPU Setup
-RUN echo "[tensorflow] Verifying CPU setup" && python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+# Set environment variables for Spark
+ENV SPARK_HOME /spark
+ENV PATH $SPARK_HOME/bin:$PATH
 
-# Install PySpark
-RUN pip install --no-cache-dir pyspark
+# Copy the rest of the application code into the container
+COPY . /app/
 
-# Install Spark
-RUN curl https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3-scala2.13.tgz \
-    -o spark-3.3.1-bin-hadoop3-scala2.13.tgz && \
-    tar -xzf spark-3.3.1-bin-hadoop3-scala2.13.tgz && \
-	mkdir -p /opt/spark && \
-    mv spark-3.3.1-bin-hadoop3-scala2.13 /opt/spark
+# Set the default command to run when the container starts
+# CMD ["python", "app.py"]
 
-# Set environment variables for PySpark
-ENV SPARK_HOME=/opt/spark
-ENV PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
-ENV DOCKER_STACKS_JUPYTER_CMD=notebook
-
-# Define the working directory
-WORKDIR /home/jovyan/work
-
-# Expose the default Jupyter Notebook port
 EXPOSE 8888
 
 # Start the Jupyter Notebook server
