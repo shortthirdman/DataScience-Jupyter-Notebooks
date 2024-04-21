@@ -12,7 +12,8 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.repository_lowercase }}
+  # IMAGE_NAME: ${{ github.repository | tr '[:upper:]''[:lower:]' }}
+  IMAGE_NAME: shortthirdman/bigdata-mlops-platform
 
 jobs:
 
