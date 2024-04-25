@@ -28,11 +28,19 @@ Data Science and Machine Learning Jupyter Notebooks
 ## Docker commands
 
 ```shell
-docker build --progress=plain --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
+ docker system prune --all --volumes --force
+```
+
+```shell
+ docker build --no-cache -f Dockerfile --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
 ```
 
 ```shell
 docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata-mlops-platform:latest .
+```
+
+```shell
+ docker run -d -n mlops -p 8888:8888 --restart unless-stopped jupyter-notebooks
 ```
 
 
@@ -64,6 +72,20 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 	jupyter notebook
 	```
 
+## Python Packages
+
+```
+evalml==0.82.0
+pyspark==3.5.0
+xgboost==2.0.0
+
+pandas==2.0.3
+numpy==1.26.3
+scikit-learn==1.4.0
+tensorflow==2.16.1
+yfinance==0.2.38
+keras==3.2.1
+```
 
 ## References
 
@@ -82,3 +104,9 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Forecasting Stock Using Deep Learning Along With Indicators | OnePageCode@SubStack](https://onepagecode.substack.com/p/forecasting-stock-using-deep-learning-220)
 
 - [Advanced Stock Pattern Prediction using LSTM with the Attention Mechanism in TensorFlow: A step by step Guide with Apple Inc. (AAPL) Data](https://drlee.io/advanced-stock-pattern-prediction-using-lstm-with-the-attention-mechanism-in-tensorflow-a-step-by-143a2e8b0e95)
+
+- [Spark and Docker: Your Spark development cycle just got 10x faster!](https://towardsdatascience.com/spark-and-docker-your-spark-development-cycle-just-got-10x-faster-f41ed50c67fd)
+
+- [datamechanics/spark on Docker Hub](https://hub.docker.com/r/datamechanics/spark)
+
+- [Setting up a Spark standalone cluster on Docker in layman terms](https://medium.com/@MarinAgli1/setting-up-a-spark-standalone-cluster-on-docker-in-layman-terms-8cbdc9fdd14b)
