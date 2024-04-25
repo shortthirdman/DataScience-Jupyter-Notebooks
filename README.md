@@ -40,7 +40,7 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 ```
 
 ```shell
- docker run -d -n mlops -p 8888:8888 --restart unless-stopped jupyter-notebooks
+ docker run -d -n mlops -p 8888:8888 --restart unless-stopped shortthirdman-org/bigdata-mlops-platform:latest
 ```
 
 
@@ -72,21 +72,6 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 	jupyter notebook
 	```
 
-## Python Packages
-
-```
-evalml==0.82.0
-pyspark==3.5.0
-xgboost==2.0.0
-
-pandas==2.0.3
-numpy==1.26.3
-scikit-learn==1.4.0
-tensorflow==2.16.1
-yfinance==0.2.38
-keras==3.2.1
-```
-
 ## References
 
 - [TimeGPT: The First Foundation Model for Time Series Forecasting](https://towardsdatascience.com/timegpt-the-first-foundation-model-for-time-series-forecasting-bf0a75e63b3a)
@@ -110,3 +95,5 @@ keras==3.2.1
 - [datamechanics/spark on Docker Hub](https://hub.docker.com/r/datamechanics/spark)
 
 - [Setting up a Spark standalone cluster on Docker in layman terms](https://medium.com/@MarinAgli1/setting-up-a-spark-standalone-cluster-on-docker-in-layman-terms-8cbdc9fdd14b)
+
+- [Apache Spark Standalone Cluster on Docker](https://github.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker)
