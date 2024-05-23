@@ -97,3 +97,9 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Setting up a Spark standalone cluster on Docker in layman terms](https://medium.com/@MarinAgli1/setting-up-a-spark-standalone-cluster-on-docker-in-layman-terms-8cbdc9fdd14b)
 
 - [Apache Spark Standalone Cluster on Docker](https://github.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker)
+
+- [Visualizing Trading Signals in Python - Plot buy and sell trading signals in Python's graph](https://eodhd.medium.com/visualizing-trading-signals-in-python-3cab01cc5847)
+
+- [Apache Hadoop and Apache Spark for Big Data Analysis](https://towardsdatascience.com/apache-hadoop-and-apache-spark-for-big-data-analysis-daaf659fd0ee)
+
+- [Agent-Based Stock Trading: Design and Implementation](https://medium.com/@redeaddiscolll/agent-based-stock-trading-design-and-implementation-85543b981abe)
