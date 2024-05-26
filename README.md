@@ -103,3 +103,11 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Apache Hadoop and Apache Spark for Big Data Analysis](https://towardsdatascience.com/apache-hadoop-and-apache-spark-for-big-data-analysis-daaf659fd0ee)
 
 - [Agent-Based Stock Trading: Design and Implementation](https://medium.com/@redeaddiscolll/agent-based-stock-trading-design-and-implementation-85543b981abe)
+
+- [Mastering K-Means Clustering](https://towardsdatascience.com/mastering-k-means-clustering-065bc42637e4)
+
+- [Additive Decision Trees - An interpretable classification and regression model](https://towardsdatascience.com/additive-decision-trees-85f2feda2223)
+
+- [Interpretable kNN (ikNN) - An interpretable classifier](https://towardsdatascience.com/interpretable-knn-iknn-33d38402b8fc)
+
+- [Interpretable Outlier Detection: Frequent Patterns Outlier Factor (FPOF)](https://towardsdatascience.com/interpretable-outlier-detection-frequent-patterns-outlier-factor-fpof-0d9cbf51b17a)
