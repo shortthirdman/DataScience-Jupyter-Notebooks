@@ -111,3 +111,7 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Interpretable kNN (ikNN) - An interpretable classifier](https://towardsdatascience.com/interpretable-knn-iknn-33d38402b8fc)
 
 - [Interpretable Outlier Detection: Frequent Patterns Outlier Factor (FPOF)](https://towardsdatascience.com/interpretable-outlier-detection-frequent-patterns-outlier-factor-fpof-0d9cbf51b17a)
+
+- [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+- [End-to-End Machine Learning Project: TelCo Churn Prediction](https://medium.com/@ramazanolmeez/end-to-end-machine-learning-project-churn-prediction-e9c4d0322ac9)
