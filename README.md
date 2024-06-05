@@ -4,11 +4,23 @@ Data Science and Machine Learning Jupyter Notebooks
 
 [![Docker Image CI](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml/badge.svg?branch=main&event=workflow_run)](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml)
 
+![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+
+<!---
+![]()
+![]()
+![]()
+![]()
+![]()
+-->
+
+
 ## Setup References
 
 - [Ready-to-run Docker images containing Jupyter applications - jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)
 
 - [Kaggle/docker-python - Kaggle Python Docker image](https://github.com/Kaggle/docker-python)
+
 
 
 ## Dataset References
