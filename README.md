@@ -83,6 +83,10 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 	```shell
 	jupyter notebook
 	```
+	
+	```
+	jupyter_nbextensions_configurator
+	```
 
 ## References
 
@@ -127,3 +131,9 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 - [End-to-End Machine Learning Project: TelCo Churn Prediction](https://medium.com/@ramazanolmeez/end-to-end-machine-learning-project-churn-prediction-e9c4d0322ac9)
+
+- [Predicting Stock Prices with Monte Carlo Simulations](https://medium.com/@antoine.boucher012/predicting-stock-prices-with-monte-carlo-simulations-0884ef32c35b)
+
+- [Artificial Intelligence (AI) models for Trading - Exploring Random Forests from Machine Learning](https://medium.com/coinmonks/artificial-intelligence-ai-models-for-trading-0bfd308d012d)
+
+- [XGBoost for Stock Price Forecasting](https://medium.com/@bugragultekin/xgboost-for-stock-price-forecasting-64f89719a8e4)

@@ -1,5 +1,6 @@
 notebook
 jupyterlab
+jupyter_contrib_nbextensions
 jupyter_nbextensions_configurator
 jupyter-lsp
 jupyterlab-lsp
