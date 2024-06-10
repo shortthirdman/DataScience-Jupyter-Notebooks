@@ -76,7 +76,7 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 	
 	```shell
 	python -m venv dev
-	````
+	```
 	
 	```shell
 	.\dev\Scripts\activate

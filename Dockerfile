@@ -1,5 +1,6 @@
-# Use the official Python 3.12 image as base
-FROM python:3.12.3-slim-bullseye
+# Use the official Python 3.10 image as base
+FROM python:3.10.14-slim-bullseye
+# FROM python:3.10.14-alpine3.20
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -24,5 +25,4 @@ COPY . /app/
 EXPOSE 8888
 
 # Start the Jupyter Notebook server
-#CMD ["jupyter", "notebook", "--notebook-dir=/app/notebooks", "--allow-root", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
 CMD ["jupyter", "lab", "--notebook-dir=/app/notebooks", "--no-browser", "--allow-root", "--ip=0.0.0.0", "--port=8888"]

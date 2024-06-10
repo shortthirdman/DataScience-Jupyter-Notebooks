@@ -5,3 +5,6 @@ jupyter_nbextensions_configurator
 jupyter-lsp
 jupyterlab-lsp
 featuretools
+python-dotenv
+ipywidgets
+jupyterlab_widgets
