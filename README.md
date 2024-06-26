@@ -6,14 +6,14 @@ Data Science and Machine Learning Jupyter Notebooks
 
 ![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 
-<!---
-![]()
-![]()
-![]()
-![]()
-![]()
--->
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shortthirdman/DataScience-Jupyter-Notebooks)
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/shortthirdman/DataScience-Jupyter-Notebooks)
+
+![GitHub Created At](https://img.shields.io/github/created-at/shortthirdman/DataScience-Jupyter-Notebooks)
+![GitHub last commit](https://img.shields.io/github/last-commit/shortthirdman/DataScience-Jupyter-Notebooks)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/shortthirdman/DataScience-Jupyter-Notebooks)
 
 
 ## Tech Stack
@@ -132,7 +132,7 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 
 - [Apache Hadoop and Apache Spark for Big Data Analysis](https://towardsdatascience.com/apache-hadoop-and-apache-spark-for-big-data-analysis-daaf659fd0ee)
 
-- [Agent-Based Stock Trading: Design and Implementation](https://medium.com/@redeaddiscolll/agent-based-stock-trading-design-and-implementation-85543b981abe)
+- [Agent-Based Stock Trading: Design and Implementation](https://medium.com/@redeaddiscolll/agent-based-stock-trading-design-and-implementation-c2141fc8f984)
 
 - [Mastering K-Means Clustering](https://towardsdatascience.com/mastering-k-means-clustering-065bc42637e4)
 
@@ -151,3 +151,5 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Artificial Intelligence (AI) models for Trading - Exploring Random Forests from Machine Learning](https://medium.com/coinmonks/artificial-intelligence-ai-models-for-trading-0bfd308d012d)
 
 - [XGBoost for Stock Price Forecasting](https://medium.com/@bugragultekin/xgboost-for-stock-price-forecasting-64f89719a8e4)
+
+- [Model Interpretability Using Credit Card Fraud Data](https://towardsdatascience.com/model-interpretability-using-credit-card-fraud-data-f219ff7ec89d)
