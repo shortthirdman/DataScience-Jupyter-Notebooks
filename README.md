@@ -153,3 +153,5 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [XGBoost for Stock Price Forecasting](https://medium.com/@bugragultekin/xgboost-for-stock-price-forecasting-64f89719a8e4)
 
 - [Model Interpretability Using Credit Card Fraud Data](https://towardsdatascience.com/model-interpretability-using-credit-card-fraud-data-f219ff7ec89d)
+
+- [How Many Pokémon Fit?](https://towardsdatascience.com/how-many-pok%C3%A9mon-fit-84f812c0387e)
