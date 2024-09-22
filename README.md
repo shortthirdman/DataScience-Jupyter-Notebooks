@@ -2,20 +2,9 @@
 
 Data Science and Machine Learning Jupyter Notebooks
 
-[![Docker Image CI](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml/badge.svg?branch=main&event=workflow_run)](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml)
-
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)	[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)	[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shortthirdman/DataScience-Jupyter-Notebooks/main)
 
-[![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)](https://keras.io/)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shortthirdman/DataScience-Jupyter-Notebooks)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/shortthirdman/DataScience-Jupyter-Notebooks)
-
-![GitHub Created At](https://img.shields.io/github/created-at/shortthirdman/DataScience-Jupyter-Notebooks)
-![GitHub last commit](https://img.shields.io/github/last-commit/shortthirdman/DataScience-Jupyter-Notebooks)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/shortthirdman/DataScience-Jupyter-Notebooks)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shortthirdman/DataScience-Jupyter-Notebooks)	![GitHub commit activity](https://img.shields.io/github/commit-activity/t/shortthirdman/DataScience-Jupyter-Notebooks)	![GitHub Created At](https://img.shields.io/github/created-at/shortthirdman/DataScience-Jupyter-Notebooks)	![GitHub last commit](https://img.shields.io/github/last-commit/shortthirdman/DataScience-Jupyter-Notebooks)	![GitHub repo size](https://img.shields.io/github/repo-size/shortthirdman/DataScience-Jupyter-Notebooks)	[![Docker Image CI](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml/badge.svg?branch=main&event=workflow_run)](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml)
 
 
 ## Tech Stack
