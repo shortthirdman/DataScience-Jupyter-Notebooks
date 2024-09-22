@@ -4,7 +4,9 @@ Data Science and Machine Learning Jupyter Notebooks
 
 [![Docker Image CI](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml/badge.svg?branch=main&event=workflow_run)](https://github.com/shortthirdman/DataScience-Jupyter-Notebooks/actions/workflows/docker.yaml)
 
-![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)	[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)	[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shortthirdman/DataScience-Jupyter-Notebooks/main)
+
+[![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)](https://keras.io/)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/shortthirdman/DataScience-Jupyter-Notebooks)
 
@@ -155,3 +157,5 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [Model Interpretability Using Credit Card Fraud Data](https://towardsdatascience.com/model-interpretability-using-credit-card-fraud-data-f219ff7ec89d)
 
 - [How Many Pokémon Fit?](https://towardsdatascience.com/how-many-pok%C3%A9mon-fit-84f812c0387e)
+
+- [Gold Price Prediction Using Machine Learning](https://medium.com/@iabbasali/gold-price-prediction-using-machine-learning-24e23841de52)
