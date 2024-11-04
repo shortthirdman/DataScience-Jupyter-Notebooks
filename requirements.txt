@@ -8,3 +8,4 @@ featuretools
 python-dotenv
 ipywidgets
 jupyterlab_widgets
+jedi-language-server
