@@ -148,3 +148,5 @@ docker buildx build --progress=auto --compress --rm -t shortthirdman-org/bigdata
 - [How Many Pokémon Fit?](https://towardsdatascience.com/how-many-pok%C3%A9mon-fit-84f812c0387e)
 
 - [Gold Price Prediction Using Machine Learning](https://medium.com/@iabbasali/gold-price-prediction-using-machine-learning-24e23841de52)
+
+- [Data Leakage in Preprocessing, Explained: A Visual Guide with Code Examples](https://towardsdatascience.com/data-leakage-in-preprocessing-explained-a-visual-guide-with-code-examples-33cbf07507b7)
